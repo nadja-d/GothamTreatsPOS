@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Gaegu&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Gaegu', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    color: #27398E;
+  }
+
+.navbarBackground {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 1;
+}
+
+.topnav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #27398E;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+}
+
+a {
+    margin-right: 40px;
+    color: #7E7E7E;
+    text-decoration: none;
+}
+
+.cart {
+    margin-left: 40px;
+}
+
+.searchBar {
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+    border-color: #FFFFFF;
+    margin-right: 40px;
+}
+
+.header {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    background-color: #27398E;
+    position: absolute;
+    top: 120px;
+}
+
+.header div {
+    margin-left: 5%;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.header h {
+    margin-left: 10px;
+}
+
+.content {
+    height: 450px;
+    width: 90%;
+    position: absolute;
+    top: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview {
+    height: 350px;
+    width: 250px;
+    background-color: #FFFFFF;
+    border: 2px solid #27398E;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wohoo {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    border-bottom: 2px solid #27398E;
+}
+
+.wohoo i {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.wohoo h {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.itsYoBDay {
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.itsYoBDay h {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.itsYoBDay p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.profileDetail {
+    height: 350px;
+    width: 850px;
+    background-color: #FFFFFF;
+    border: 2px solid #27398E;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detail {
+    height: 120px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #27398E;
+}
+
+.email, .phone {
+    height: 80%;
+    border-right: 2px solid #27398E;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.address {
+    height: 80%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email h, .phone h, .address h {
+    font-weight: bold;
+}
+
+.email p, .phone p, .address p {
+    margin-right: 80px;
+}
+
+.aboutMe {
+    height: 200px;
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe h {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.aboutMeInputField {
+    height: 160px;
+    border: 2px solid #27398E;
+    border-radius: 15px;
+}
+
+.footer {
+    position: absolute;
+    top: 650px;
+    display: flex;
+    background-color: #27398E;
+    color: #FFFFFF;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .info h1{
+    margin-bottom: 30px;
+}
+
+.info p{
+    margin-bottom: 8px;
+    color: #FFFFFF;
+}
+
+.link{
+    color: #FFFFFF;
+}
+
+.footer .company h1{
+    margin-bottom: 30px;
+}
+
+.company p{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.company h1, .company p {
+    margin-bottom: 10px; 
+}
+
+.contactUs {
+    color: #ffffff; 
+}
+
+.footer .uptodate h1{
+    margin-bottom: 30px;
+}
+
+.input{
+    border-radius: 5px;
+}
+
+.footer h1 {
+    font-size: 22px;
+}
+
+.company, .uptodate, .info {
+    height: 180px;
+}
+
+.sims {
+    display: flex;
+}
+
+.sims i {
+    margin-left: 20px;
+}

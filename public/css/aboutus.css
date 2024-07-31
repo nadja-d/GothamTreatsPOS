@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Gaegu&display=swap');
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Gaegu', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    color: #27398E;
+  }
+
+.navbarBackground {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 1;
+}
+
+.topnav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #27398E;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+}
+
+a {
+    margin-right: 40px;
+    color: #7E7E7E;
+    text-decoration: none;
+}
+
+.cart {
+    margin-left: 40px;
+}
+
+.searchBar {
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+    border-color: #FFFFFF;
+    margin-right: 40px;
+}
+
+.Welcome {
+    height: 520px;
+    width: 90%;
+    position: absolute;
+    top: 80px;
+    align-items: center;
+    display: flex;
+    border-bottom: 4px solid #27398E;
+}
+
+.overview h1{
+    font-size: 24px;
+    margin-bottom: 18px;
+    align-self: center;
+}
+
+.overview {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.penjelasan{
+    text-align: justify;
+}
+
+.fotoawal {
+    height: 460px;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.pilihan .h1 {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.kuki {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.kuki .fotocookie {
+    position: relative;
+    height: 350px;
+    width: 320px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    top: 650px;
+    align-items: center;
+}
+
+.pilihan{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.soldProducts {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.soldProducts .image {
+    position: relative;
+    height: 350px;
+    width: 320px;
+}
+
+.soldProductsItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    position: relative;
+}
+
+.next {
+    display: flex;
+    margin-top: 40px;
+}
+
+.next a {
+    font-size: 30px;
+    margin-left: 25px;
+    color:#7E7E7E;
+}
+
+.next .active {
+    color:#27398E;
+}
+
+.fa-chevron-circle-left, .fa-chevron-circle-right {
+    cursor: pointer;
+}
+
+.fa-chevron-circle-left:hover, .fa-chevron-circle-right:hover {
+    color: #27398E;
+}
+
+.openingHours {
+    background-color: #27398E;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    top: 1240px;
+    position: absolute;
+}
+
+.openingHoursContent {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+.openingHoursContent h2{
+    margin-top: 40px;
+} 
+
+.openingHoursContent p{
+    margin-top: 16px;
+} 
+
+.fotobawah{
+    width: 60%;
+    height: 100%;
+}
+
+.footer{
+    position: absolute;
+    margin-top: 1830px;
+    display: flex;
+    background-color: #27398E;
+    color: #FFFFFF;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .info h1{
+    margin-bottom: 30px;
+}
+
+.info p{
+    margin-bottom: 8px;
+    color: #FFFFFF;
+}
+
+.link{
+    color: #FFFFFF;
+}
+
+.footer .company h1{
+    margin-bottom: 30px;
+}
+
+.company p{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.company h1, .company p {
+    margin-bottom: 10px; 
+}
+
+.contactUs {
+    color: #ffffff; 
+}
+
+.footer .uptodate h1{
+    margin-bottom: 30px;
+}
+
+.input{
+    border-radius: 5px;
+}
+
+.footer h1 {
+    font-size: 22px;
+}
+
+.company, .uptodate, .info {
+    height: 180px;
+}
+
+.sims {
+    display: flex;
+}
+
+.sims i {
+    margin-left: 20px;
+}
